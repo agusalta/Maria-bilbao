@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-item {
+    margin-left: 4rem;
+}
+
+button:hover {
+    background-color: white;
+    color: #acad94;
+}
+
+.navbar, .page-footer {
+    background-color: whitesmoke;
+}
+
+footer {
+    
+}
+
+@media (max-width: 990px) {
+   
+    #lineas {
+        display: none;
+    }
+
+    .jumbotron {
+        text-align: center;
+        transform: translateY(10rem);
+    }
+
+    #container-index {
+        background-color: #acad94 ;
+    }
+     
+    #div-bv {
+        margin: 2rem;
+        height: 60vh;
+    }
+
+}
