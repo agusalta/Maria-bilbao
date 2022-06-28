@@ -46,14 +46,61 @@
       </nav>
     </header>
 
-    <main class="content-fluid" style="height: 75vh;">
+    <section style="height: 90vh;">
+      
+      <div class="container" style="height: inherit;">
+        <div id="form-div" class="col-md-12 d-flex justify-content-center">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="inputname" placeholder="Nombre completo">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Domicilio</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Lugar</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">Provincia</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Recibir newsletter
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+      
+    </section>
 
-    </main>
-
-    <footer class="page-footer" style="height: 100%;">
-      <div class="bg-light">
-        <div class="container-md">
-          <div class="row py-4 d-flex align-items-center">
+    <footer id="footer-cont">
+      <div class="bg-light col-md-12">
+        <div class="container-md" style="height: 20vh;">
+          <div class="row py-5 d-flex align-items-center">
             <div class="col-md-12 text-center">
               <a href="https://www.facebook.com/mariacecilia.bilbao.9" target="_blank"><i class="fa-brands fa-facebook-f text-dark mr-4"></i></a>
               <a href="https://www.instagram.com/ma.ceciliabilbao/" target="_blank"><i class="fa-brands fa-instagram text-dark mr-4"></i></a>

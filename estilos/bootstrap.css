@@ -1,6 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+ main, footer {
+    overflow: hidden;
+}
+
+#lineas {
     overflow: hidden;
 }
 
@@ -8,13 +15,47 @@
     margin-left: 4rem;
 }
 
-button:hover {
-    background-color: white;
-    color: #acad94;
-}
-
 .navbar, .page-footer {
     background-color: whitesmoke;
+}
+
+
+/*
+.jumbotron {
+    background-image: linear-gradient(red, orange, yellow);
+}| */
+
+#container-index {
+    background-image: transparent;
+}
+
+.jumbotron {
+    background: linear-gradient(87deg, red, orange, yellow);
+    background-size: 600% 600%;
+
+    -webkit-animation: bienvenido 18s ease infinite;
+    -moz-animation: bienvenido 18s ease infinite;
+    animation: bienvenido 18s ease infinite;
+}
+
+@-webkit-keyframes bienvenido {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes bienvenido {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes bienvenido {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+
+#form-div {
+    transform: translateY(5rem);
 }
 
 
@@ -26,16 +67,30 @@ button:hover {
 
     .jumbotron {
         text-align: center;
-        transform: translateY(10rem);
+        transform: translateY(5rem);
     }
 
     #container-index {
-        background-color: #acad94 ;
+        background-color: transparent;
     }
      
     #div-bv {
-        margin: 2rem;
-        height: 60vh;
+        transform: translateY(-5rem);
     }
 
+}
+
+@media (max-width: 768px) {
+
+    form {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        overflow: visible;
+    }
+    #footer-cont {
+        bottom: 0;
+        position: absolute;
+        display: none;
+    }
 }
