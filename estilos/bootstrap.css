@@ -30,12 +30,12 @@
 }
 
 .jumbotron {
-    background: linear-gradient(87deg, red, orange, yellow);
+    background: linear-gradient(87deg, red, purple, orange, yellow);
     background-size: 600% 600%;
 
-    -webkit-animation: bienvenido 18s ease infinite;
-    -moz-animation: bienvenido 18s ease infinite;
-    animation: bienvenido 18s ease infinite;
+    -webkit-animation: bienvenido 9s ease infinite;
+    -moz-animation: bienvenido 9s ease infinite;
+    animation: bienvenido 9s ease infinite;
 }
 
 @-webkit-keyframes bienvenido {
