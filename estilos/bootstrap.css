@@ -30,7 +30,7 @@
 }
 
 .jumbotron {
-    background: linear-gradient(87deg, red, purple, orange, yellow);
+    background: linear-gradient(87deg, #c9e4ca, #87BBA2, #55828B, #3B6064, #364958);
     background-size: 600% 600%;
 
     -webkit-animation: bienvenido 9s ease infinite;
@@ -56,7 +56,7 @@
 
 #section-cont{
     color: white;
-    background: linear-gradient(301deg, #663399, #993364, #dd3333, #2522cc);
+    background: linear-gradient(301deg, #c9e4ca, #87BBA2, #55828B, #3B6064, #364958);
     background-size: 800% 800%;
 
     -webkit-animation: AnimationName 10s ease infinite;
