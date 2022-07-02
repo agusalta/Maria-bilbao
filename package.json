@@ -5,7 +5,7 @@
   "name": "maria-bilbao-coder",
   "scripts": {
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-    "build:css": "node-sass --output-style compressed estilos/sass.scss estilos/styles.css/main.css"
+    "build:css": "node-sass --output-style compressed estilos/sass.scss estilos/estilo.css/main.css"
   },
   "version": "1.0.0",
   "devDependencies": {
