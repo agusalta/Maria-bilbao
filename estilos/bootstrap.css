@@ -89,10 +89,11 @@ footer {
 }
 .item {
 	transition: .5s ease-in-out;
-	&:hover {
+}
+.item:hover {
 		filter: brightness(80%);
 	}
-}
+
 #container-index {
 	background-image: transparent;
 }
